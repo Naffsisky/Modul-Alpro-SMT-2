@@ -4,16 +4,14 @@ using namespace std;
 int user, i, nilai, total, hasil;
 
 int main() {
-    cout << "Masukan jumlah banyaknya mahasiswa : ";
+    cout << "Masukan banyaknya jumlah mata kuliah : ";
     cin >> user;
     for (i = 1; i <= user; i++) {
-        cout << "Masukan nilai " << i << " : ";
+        cout << "Masukan nilai mahasiswa " << i << " : ";
         cin >> nilai;
-        nilai = nilai + nilai;
+        total += nilai;
         }
-        hasil = nilai / user;
-        cout << hasil << endl;
-        cout << nilai << endl;
-        cout << user << endl;
+        hasil = total / user;
+        cout << "\nHasil rata-rata nilai mahasiswa adalah " << hasil << endl;
     return 0;
 }
