@@ -6,10 +6,10 @@ int user, i, nilai[50], total;
 float hasil;
 
 int main() {
-    cout << "Masukan jumlah banyaknya mahasiswa : ";
+    cout << "Masukan jumlah banyaknya mata kuliah : ";
     cin >> user;
     for (i = 0; i < user; i++) {
-        cout << "Masukan nilai mahasiswa ke- " << i+1 << " : ";
+        cout << "Masukan nilai ke - " << i+1 << " : ";
         cin >> nilai[i];
         total += nilai[i];
         }
@@ -17,6 +17,6 @@ int main() {
         cout << endl;
         hasil = total / user;
         cout << "Nilai rata-rata adalah : " << hasil << endl;
-    
+
     return 0;
 }
