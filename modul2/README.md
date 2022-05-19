@@ -39,4 +39,4 @@ Output	: 	  ****
 		  *
 ```
 # 7
-```7.	Buatlah algoritma dan flowchart menggunakan raptor untuk sebuah program yang dapat menerima dan menjumlahkan data matriks 2x2 berdasarkan inputan user.```
+```Buatlah algoritma dan flowchart menggunakan raptor untuk sebuah program yang dapat menerima dan menjumlahkan data matriks 2x2 berdasarkan inputan user.```
