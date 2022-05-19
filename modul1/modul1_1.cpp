@@ -2,8 +2,8 @@
 #include <conio.h>
 using namespace std;
 
-int user, i, nilai[50], total;
-float hasil;
+int user, i, nilai[50];
+float hasil, total;
 
 int main() {
     cout << "Masukan jumlah banyaknya mahasiswa : ";
