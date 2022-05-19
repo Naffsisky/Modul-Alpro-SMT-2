@@ -1,17 +1,22 @@
 #include <iostream>
+#include <conio.h>
 using namespace std;
 
-int user, i, nilai, total, hasil;
+int user, i, nilai[50], total;
+float hasil;
 
 int main() {
-    cout << "Masukan banyaknya jumlah mata kuliah : ";
+    cout << "Masukan jumlah banyaknya mahasiswa : ";
     cin >> user;
-    for (i = 1; i <= user; i++) {
-        cout << "Masukan nilai mahasiswa " << i << " : ";
-        cin >> nilai;
-        total += nilai;
+    for (i = 0; i < user; i++) {
+        cout << "Masukan nilai mahasiswa ke- " << i+1 << " : ";
+        cin >> nilai[i];
+        total += nilai[i];
         }
+
+        cout << endl;
         hasil = total / user;
-        cout << "\nHasil rata-rata nilai mahasiswa adalah " << hasil << endl;
+        cout << "Nilai rata-rata adalah : " << hasil << endl;
+    
     return 0;
 }
