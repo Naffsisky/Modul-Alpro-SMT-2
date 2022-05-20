@@ -1,11 +1,17 @@
 #include <iostream>
 using namespace std;
 
-int a = 4, b = 3, c = 2, d = 1; 
-int aa = 5, bb = 4, cc = 3, dd = 7, y;
-float hasil;
+int  n[4], pangkat[3];
+
 int main(){
     cout << "Y = 5x^4 + 3x^3 - x^2 + 7" << endl;
-    y = (aa*a)*pow(x,(a-1)) + (bb*b)*pow(x,(b-1)) - (cc*c)*pow(x,(c-1)) + (dd*d)*pow(x,(d-1));
-    cout << y;
+    n[1] =5; n[2] =3; n[3] =-1; 
+    pangkat[1] = 4; pangkat[2] = 3; pangkat[3] = 2;
+    
+for (int i = 1; i <= 3; i++){
+    cout << n[i]*pangkat[i] << ".X^" << pangkat[i] - 1 ;
+    if (i < 3) cout << " + ";
+    else cout << endl;
+    }
+
 }
