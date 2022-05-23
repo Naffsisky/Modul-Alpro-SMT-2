@@ -1,13 +1,15 @@
 #include <iostream>
 #include <conio.h>
+#include <math.h>
+#include <stdio.h>
 using namespace std;
 
 float sudut, phi, gravitasi, v, rad, jarak;
 int main(){
-    phi = 3,14;
-    gravitasi = 9,8;
+    phi = 3.14;
+    gravitasi = 9.8;
 
-    cout << "Masukan sudut : ";
+    cout << "Masukan sudut (derajat) : ";
     cin >> sudut;
     cout << "Masukan kecepatan : ";
     cin >> v;
