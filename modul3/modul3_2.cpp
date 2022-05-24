@@ -1,9 +1,10 @@
 #include <iostream>
 using namespace std;
 
-float nilai;
 
-int main() {
+void hitung() {
+
+    float nilai;
 
     cout << "Masukkan nilai : ";
     cin >> nilai;
@@ -35,4 +36,9 @@ int main() {
         cout << "Nilai anda tidak sesuai";
     }
     
+}
+
+int main(){
+    hitung();
+    return 0;
 }
